@@ -1,0 +1,101 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+section{
+    padding: 2rem;
+}
+
+#hero{
+    min-height: 80vh;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;  
+    text-align: center;
+}
+
+#hero img{
+    width:300px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+#departments h1{
+    text-align: center;
+}
+
+#departments ul{
+    list-style: none;
+    font-size: medium;
+}
+
+
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;   
+    color: white;
+    text-align: center;
+}
+
+
+footer form{
+    width:100%;
+    max-width: 500px;
+}
+
+form>div{
+    margin-bottom: 1rem;
+}
+
+input,textarea{
+    width:100%;
+    min-height: 2.5rem;
+    border-radius: 8px;
+}
+
+label{
+    display: block;
+}
+
+
+.bg-crimson{
+    background-color: rgb(183, 17, 50);
+    color: black;
+}
+
+.bg-darkgoldenrod{
+    background-color:darkgoldenrod;
+    color: black;
+}
+
+.bg-firebrick{
+    background-color:rgb(13, 174, 66);
+    color: black;
+}
+
+.bg-blue{
+    background-color:rgb(2, 91, 194);
+    color: black;
+}
+
